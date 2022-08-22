@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Memes</string>
+    <string name="linear">Linear</string>
+    <string name="grid">Grid</string>
+</resources>
