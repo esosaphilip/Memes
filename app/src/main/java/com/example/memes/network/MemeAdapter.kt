@@ -17,6 +17,7 @@ class MemeAdapter(private var context: Context, private val memes: List<MemeX> )
 
     class MemeViewHolder( private val memeView: View):RecyclerView.ViewHolder(memeView){
 
+
        val nam: TextView =memeView.findViewById(R.id.name)
        val image: ImageView = memeView.findViewById(R.id.img)
         val boxC : TextView = memeView.findViewById(R.id.b_count)
