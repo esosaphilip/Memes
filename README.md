@@ -20,4 +20,6 @@ Build System : Gradle
 #### Screenshot
 
 ---
-![screenshot][Logo]
+![screenshot][Shot]
+
+[Shot]: https://github.com/esosaphilip/Memes/blob/master/Screenshot_2022Memes.jpg " Shot Title Text 1 "
