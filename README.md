@@ -22,4 +22,4 @@ Build System : Gradle
 ---
 ![screenshot][logo]
 
-[Shot]<https://github.com/esosaphilip/Memes/blob/master/Screenshot_2022Memes.jpg> "Shot Title text"
+[Logo]<https://github.com/esosaphilip/Memes/blob/master/Screenshot_2022Memes.jpg> "Shot Title text"
