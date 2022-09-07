@@ -1,6 +1,7 @@
-     
-              ![Logo][Logo]
-              [Logo]:  "Logo Title Text 2 "
+
+# ![meme][Logo]
+
+[Logo]: <https://github.com/esosaphilip/Memes/blob/master/image.png> "Logo Title Text 2 "
 
 # Memes App
 
@@ -11,4 +12,3 @@ Build System : Gradle
 ## Screenshot
 
 ---
-
