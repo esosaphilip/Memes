@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/light"
+        android:icon="@drawable/ic_toggle"
+        android:title="@string/Theme"
+        android:contentDescription="@string/content_description_search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/more"
+        android:title="@string/more"
+        android:contentDescription="@string/content_description_more"
+        app:showAsAction="never" />
+</menu>

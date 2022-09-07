@@ -2,4 +2,9 @@
     <string name="app_name">Memes</string>
     <string name="linear">Linear</string>
     <string name="grid">Grid</string>
+    <string name="page_title">FuNNY</string>
+    <string name="content_description_more">More</string>
+    <string name="more">more</string>
+    <string name="Theme">Theme</string>
+    <string name="content_description_search">Theme</string>
 </resources>

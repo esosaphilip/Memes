@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.util.Log.d
 import android.util.Log.e
 import android.view.View
+import androidx.appcompat.app.AppCompatDelegate
 import androidx.recyclerview.widget.GridLayoutManager
 
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -23,16 +24,34 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.topAppBar.setOnMenuItemClickListener { menuItem ->
+            when (menuItem.itemId) {
+
+                R.id.light -> {
+
+                    AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+                    // Handle search icon press
+                    true
+                }
+                R.id.more -> {
+                    // Handle more item (inside overflow menu) press
+                    true
+                }
+                else -> false
+            }
+        }
+
+
+
 
        // d("chess", ""+response.body())
         //e("mess","enter data is error fetching")
-
-
 
         val client = MemeInstance.retrofitService.getLaughs()
         client.enqueue(object:Callback<Meme>{
